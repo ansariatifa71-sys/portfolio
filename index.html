@@ -38,280 +38,275 @@
 </head>
 
 <body>
-  <!-- navebar -->
 
-  <div class="bg-rose-50 flex justify-between p-4 shadow-lg fixed top-0  left-0 right-0 z-50">
-    <p class="text-rose-900 text-3xl font-bold">ATIFA</p>
-    <div class="bg-rose-100 rounded-lg px-4 p-2">
-      <ol class="flex gap-6 text-rose-800">
+  <!-- Navbar -->
+  <div
+    class="bg-rose-50 flex flex-wrap md:flex-nowrap justify-between items-center gap-3 p-4 shadow-lg fixed top-0 left-0 right-0 z-50">
+    <p class="text-rose-900 text-2xl md:text-3xl font-bold">ATIFA</p>
+
+    <div class="bg-rose-100 rounded-lg px-4 py-2 w-full md:w-auto order-3 md:order-none overflow-x-auto">
+      <ol class="flex justify-between md:justify-start gap-4 md:gap-6 text-rose-800">
         <li class="hover:text-red-600 hover:font-bold active:underline"><a href="Home">Home</a></li>
-        <li class="hover:text-red-600 hover:font-bold active:underline"> <a href="about">About</a></li>
-        <li class="hover:text-red-600 hover:font-bold active:underline"> <a href="Skill">Skill</a></li>
+        <li class="hover:text-red-600 hover:font-bold active:underline"><a href="about">About</a></li>
+        <li class="hover:text-red-600 hover:font-bold active:underline"><a href="Skill">Skill</a></li>
         <li class="hover:text-red-600 hover:font-bold active:underline"><a href="Contact">Contact</a></li>
       </ol>
     </div>
-    <div class="bg-rose-500 rounded-lg  text-rose-200 px-4 font-semibold p-2 ">Currently lurning</div>
+
+    <div class="bg-rose-500 rounded-lg text-rose-200 px-4 py-2 font-semibold">
+      Currently learning
+    </div>
   </div>
-  <!-- hero -->
+
+  <!-- Hero -->
   <div
-    class="bg-rose-50 bg-[url('https://i.pinimg.com/1200x/b0/d3/c2/b0d3c2f5d829039864b70e010d237901.jpg')] bg-cover bg-center h-screen">
-    <div class="flex justify-between">
-      <div class="mt-40 ml-20">
-        <p class="text-rose-900 font-bold text-xl">Hello ,i am</p>
+    class="bg-rose-50 bg-[url('https://i.pinimg.com/1200x/b0/d3/c2/b0d3c2f5d829039864b70e010d237901.jpg')] bg-cover bg-center min-h-screen pt-24 pb-10 px-4 md:px-8">
+    <div class="flex flex-col lg:flex-row justify-between items-center gap-8 max-w-7xl mx-auto">
+      <div class="mt-8 lg:mt-16 lg:ml-8 text-center lg:text-left">
+        <p class="text-rose-900 font-bold text-xl">Hello, I am</p>
         <p class="bg-gradient-to-r from-rose-400 to-pink-900 bg-clip-text text-transparent text-5xl font-bold">Atifa</p>
-        <p class="text-rose-800 text-2xl font-bold mt-2">
-          AI & Data Science Student <br> Web Designer|Future AI Professional</p>
-        <p class="text-rose-800 mt-4">I’m naturally curious and enjoy learning by creating. Whether it's designing a
-          website,<br> experimenting with code, or
-          understanding how data can solve real-world problems,<br> I like exploring new ideas and turning them into
-          something
-          meaningful.</p>
-        <div class="flex  mt-4">
-          <button class="bg-pink-900 text-white py-2  px-2 rounded-lg  hover:-translate-y-2 hover:bg-gradient-to-r from-pink-400 to-pink-600 ">viwe my
-            works</button>
-          <button class="bg-rose-100 py-2 px-2 rounded-lg border-2 border-red-400  ml-2  hover:-translate-y-2 hover:bg-gradient-to-r from-pink-400 to-pink-600"> let's
-            contact</button>
+
+        <p class="text-rose-800 text-xl md:text-2xl font-bold mt-2">
+          AI &amp; Data Science Student<br>
+          Web Designer | Future AI Professional
+        </p>
+
+        <p class="text-rose-800 mt-4 max-w-2xl">
+          I’m naturally curious and enjoy learning by creating. Whether it's designing a website,
+          experimenting with code, or understanding how data can solve real-world problems,
+          I like exploring new ideas and turning them into something meaningful.
+        </p>
+
+        <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-3 mt-4">
+          <button
+            class="bg-pink-900 text-white py-2 px-3 rounded-lg hover:-translate-y-2 hover:bg-gradient-to-r from-pink-400 to-pink-600">
+            View my works
+          </button>
+          <button
+            class="bg-rose-100 py-2 px-3 rounded-lg border-2 border-red-400 hover:-translate-y-2 hover:bg-gradient-to-r from-pink-400 to-pink-600">
+            Let's contact
+          </button>
         </div>
-<!-- hero section -->
       </div>
-      <div class="bg-pink-800 rounded-t-full  mt-24 mr-32">
-        <img src="img1.png" class="size-80  mt-10 transition-transform duration-100 hover:scale-125">
+
+      <div class="bg-pink-800 rounded-t-full mt-4 lg:mt-8">
+        <img src="img1.png" class="w-64 h-64 md:w-80 md:h-80 mt-8 transition-transform duration-100 hover:scale-125">
       </div>
     </div>
-    <div class="flex justify-evenly mt-20 ">
-      <div class="bg-pink-900 size-64 rounded-lg transition-transform duration-100 hover:scale-125 shadow-2xl">
-        <p class="text-rose-300 text-2xl font-bold mt-10 text-center">🤖 AI & Data Science</p>
-        <p class="text-center text-rose-200 mt-6">Exploring Artificial Intelligence, Machine Learning and Data Science to
-          understand how intelligent systems solve
-          real-world problems.</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 justify-items-center gap-6 mt-12 max-w-7xl mx-auto">
+      <div
+        class="bg-pink-900 w-full max-w-72 min-h-64 rounded-lg transition-transform duration-100 hover:scale-105 shadow-2xl p-4">
+        <p class="text-rose-300 text-2xl font-bold mt-4 text-center">🤖 AI &amp; Data Science</p>
+        <p class="text-center text-rose-200 mt-4">Exploring Artificial Intelligence, Machine Learning and Data Science
+          to understand how intelligent systems solve real-world problems.</p>
       </div>
-      <div class="bg-rose-100 size-64 rounded-lg transition-transform duration-100 hover:scale-125 shadow-2xl">
-        <p class="text-rose-900 text-2xl font-bold mt-10 text-center">🌐 Web Designing</p>
-        <p class="text-center text-rose-700 mt-6">Creating clean, responsive and user-friendly websites while exploring
+
+      <div
+        class="bg-rose-100 w-full max-w-72 min-h-64 rounded-lg transition-transform duration-100 hover:scale-105 shadow-2xl p-4">
+        <p class="text-rose-900 text-2xl font-bold mt-4 text-center">🌐 Web Designing</p>
+        <p class="text-center text-rose-700 mt-4">Creating clean, responsive and user-friendly websites while exploring
           modern web technologies and creative design.</p>
       </div>
-      <div class="bg-pink-900 size-64 rounded-lg transition-transform duration-100 hover:scale-125 shadow-2xl">
-        <p class="text-rose-300 text-2xl font-bold mt-10 text-center">📊 Data Analytics</p>
-        <p class="text-center text-rose-200 mt-6">Turning raw data into meaningful insights through data analysis,
+
+      <div
+        class="bg-pink-900 w-full max-w-72 min-h-64 rounded-lg transition-transform duration-100 hover:scale-105 shadow-2xl p-4">
+        <p class="text-rose-300 text-2xl font-bold mt-4 text-center">📊 Data Analytics</p>
+        <p class="text-center text-rose-200 mt-4">Turning raw data into meaningful insights through data analysis,
           visualization and problem-solving.</p>
       </div>
-      <div class="bg-rose-100 size-64 rounded-lg transition-transform duration-100 hover:scale-125 shadow-2xl">
-        <p class="text-rose-900 text-2xl font-bold mt-10 text-center">🚀 Learning & Building</p>
-        <p class="text-center text-rose-700 mt-6">As a first-year student, I'm continuously learning new technologies,
-          building projects and improving my skills step by
-          step.</p>
+
+      <div
+        class="bg-rose-100 w-full max-w-72 min-h-64 rounded-lg transition-transform duration-100 hover:scale-105 shadow-2xl p-4">
+        <p class="text-rose-900 text-2xl font-bold mt-4 text-center">🚀 Learning &amp; Building</p>
+        <p class="text-center text-rose-700 mt-4">As a first-year student, I'm continuously learning new technologies,
+          building projects and improving my skills step by step.</p>
       </div>
     </div>
   </div>
-  <div class="bg-pink-900 w-full h-56"></div>
 
+  <div class="bg-pink-900 w-full h-32 md:h-56"></div>
 
   <div class="moving-strip">
     <img src="download (2).png" alt="moving item" class="animate-move">
-
-    <div class="bg-pink-800 h-10 rounded-lg mt-20 flex  justify-evenly">
-
-      <p class="text-white font-bold text-xl">Learn</p>
-      <p class="text-white font-bold text-xl">Build</p>
-      <p class="text-white font-bold text-xl">Dream</p>
-      <p class="text-white font-bold text-xl">Grow</p>
+    <div class="bg-pink-800 h-10 rounded-lg mt-20 flex justify-evenly">
+      <p class="text-white font-bold text-base md:text-xl">Learn</p>
+      <p class="text-white font-bold text-base md:text-xl">Build</p>
+      <p class="text-white font-bold text-base md:text-xl">Dream</p>
+      <p class="text-white font-bold text-base md:text-xl">Grow</p>
     </div>
   </div>
-  <!-- about me section -->
-  <div
-    class="bg-rose-50 bg-[url('https://i.pinimg.com/1200x/b3/59/84/b35984abfbad30f7207a9ab1ae95a7a4.jpg')] bg-cover bg-center h-screen relative">
-    <div class="bg-pink-950/50 rounded-lg w-full flex justify-evenly ">
-      <div><img src="download2.png" class="rounded-lg w-72 transition-transform duration-100 hover:scale-125"></div>
-      <div class="bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent">
-        <h1 class="font-bold text-8xl mt-8 ">About me</h1>
-        <p class="text-lgx font-semibold mt-6">I'm Atifa, a first-year AI & Data Science student<br>
-          who enjoys turning ideas into useful digital<br>
-          experiences. I'm currently exploring artificial<br>
-          intelligence, data science, and web design while<br>
-          building my technical skills step by step.<br><br>
 
-          I'm naturally curious and enjoy learning by creating.<br>
-          Whether it's designing a website, experimenting<br>
-          with code, or understanding how data can solve<br>
-          real-world problems, I like exploring new ideas<br>
-          and turning them into something meaningful.</p>
+  <!-- About me -->
+  <div
+    class="bg-rose-50 bg-[url('https://i.pinimg.com/1200x/b3/59/84/b35984abfbad30f7207a9ab1ae95a7a4.jpg')] bg-cover bg-center min-h-screen">
+    <div
+      class="bg-pink-950/50 rounded-lg w-full flex flex-col md:flex-row items-center justify-evenly gap-8 p-6 md:p-10">
+      <div>
+        <img src="download2.png" class="rounded-lg w-56 md:w-72 transition-transform duration-100 hover:scale-105">
+      </div>
+
+      <div class="bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent text-center md:text-left">
+<h1 class="font-bold text-5xl md:text-8xl mt-4">About me</h1>
+<p class="text-lg font-semibold mt-6">
+I'm Atifa, a first-year AI &amp; Data Science student who enjoys turning ideas into useful digital
+experiences. I'm currently exploring artificial intelligence, data science, and web design while building my technical
+skills step by step.
+<br><br>
+          I'm naturally curious and enjoy learning by creating. Whether it's designing a website, experimenting with
+          code,
+or understanding how data can solve real-world problems, I like exploring new ideas and turning them into
+something meaningful.
+</p>
       </div>
     </div>
 
-    <!-- skills section -->
-    <div class="bg-pink-900 w-full  absolute ">
-      <p class="font-bold text-7xl bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent ml-[550px] mt-4">What I Do</p>
-      <div class="flex justify-evenly mt-6">
-                  <div class="rounded-lg border-2 border-pink-200 p-2 transition-transform duration-100 hover:bg-pink-950 ">
-              <p class="bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent text-3xl font-bold ml-44 mt-2">skills</p>
-              <div class="flex gap-4 mt-4">
+    <!-- Skills section -->
+    <div class="bg-pink-900 w-full p-4 md:p-8">
+      <p
+        class="font-bold text-4xl md:text-7xl text-center bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent mt-4">
+        What I Do
+      </p>
 
-              <div class="rounded-full border-2 border-pink-500 px-2">
-                <div class="flex  ">
-                <img src="icon1.png " class="size-12">
-                <p class="text-pink-300 font-bold mt-2">Python</p>
-                </div>
-                </div>
+      <div class="flex flex-col xl:flex-row justify-evenly gap-6 mt-6">
+        <div class="rounded-lg border-2 border-pink-200 p-4 transition-transform duration-100 hover:bg-pink-950">
+          <p
+            class="bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent text-3xl font-bold text-center mt-2">
+            Skills</p>
 
-                <div class="rounded-full border-2 border-pink-500 px-2">
-                  <div class="flex">
-                    <img src="icon2.png" class="size-12">
-                    <p class="text-pink-300  font-bold mt-2">HTML</p>
-                  </div>
-                </div>
-
-                <div class="rounded-full border-2 border-pink-500 px-2">
-                  <div class="flex">
-                    <img src="icon3.png" class="size-12">
-                    <p class="text-pink-300 font-bold mt-2">CSS</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="flex gap-4 mt-4">
-                <div class="rounded-full border-2 border-pink-500 px-2">
-                  <div class="flex">
-                    <img src="icon4.png" class="size-12">
-                    <p class="text-pink-300 font-bold mt-2">Java scrip </p>
-                  </div>
+          <div class="flex flex-wrap justify-center gap-4 mt-4">
+            <div class="rounded-full border-2 border-pink-500 px-2">
+              <div class="flex items-center"><img src="icon1.png" class="size-12">
+<p class="text-pink-300 font-bold">Python</p>
+</div>
             </div>
-              <div class="rounded-full border-2 border-pink-500 px-2">
-                <div class="flex">
-                  <img src="icon5.png" class="size-12">
-                  <p class="text-pink-300 font-bold mt-2">SQL</p>
-                </div>
-                </div>
-                  <div class="rounded-full border-2 border-pink-500 px-2">
-                    <div class="flex">
-                      <img src="icon6.png" class="size-12">
-                      <p class="text-pink-300 font-bold mt-2">Data analysis</p>
-                    </div>
-                </div>
-                </div>
-                <div class="flex gap-4 mt-4">
-                  <div class="rounded-full border-2 border-pink-500">
-                    <div class="flex">
-                      <img src="icon7.png" class="size-12">
-                      <p class="text-pink-300 font-bold mt-2 px-2">Machine learning</p>
-                    </div>
-                  </div>
-                  </div>
-
-                  <p class="text-pink-500 text-lg font-bold p-2">Currently learning</p>
-                  <div class="flex gap-6">
-                  <div class="rounded-full border-2 border-pink-500 bg-pink-500/50">
-                      <p class="text-pink-300 font-bold px-4">HTMl</p>
-                    </div>
-
-                      <div class="rounded-full border-2 border-pink-500 bg-pink-500/50">
-                          <p class="text-pink-300 font-bold px-4">Java Script</p>
-                      </div>
-
-                  <div class="rounded-full border-2 border-pink-500 bg-pink-500/50">
-                      <p class="text-pink-300 font-bold px-4">Python</p>
-                    </div>
-                    </div>
-    </div>
-    <div class="flex gap-4">
-      <div class="rounded-lg border-2 border-pink-200 p-2 transition-transform duration-100 hover:bg-pink-950 text-pink-300">
-
-          <div class="rounded-lg border-2 border-pink-500 px-4 py-2 mt-4 bg-pink-700/50">
-              <p class="text-pink-300 font-bold  ">Creative Thinking</p>
-              <p>Finding fresh ideas and exploring different approaches</p>
+            <div class="rounded-full border-2 border-pink-500 px-2">
+              <div class="flex items-center"><img src="icon2.png" class="size-12">
+<p class="text-pink-300 font-bold">HTML</p>
+              </div>
+            </div>
+            <div class="rounded-full border-2 border-pink-500 px-2">
+<div class="flex items-center"><img src="icon3.png" class="size-12">
+<p class="text-pink-300 font-bold">CSS</p>
+              </div>
+            </div>
+<div class="rounded-full border-2 border-pink-500 px-2">
+<div class="flex items-center"><img src="icon4.png" class="size-12">
+<p class="text-pink-300 font-bold">JavaScript</p>
+              </div>
+            </div>
+<div class="rounded-full border-2 border-pink-500 px-2">
+<div class="flex items-center"><img src="icon5.png" class="size-12">
+<p class="text-pink-300 font-bold">SQL</p>
+</div>
+</div>
+<div class="rounded-full border-2 border-pink-500 px-2">
+<div class="flex items-center"><img src="icon6.png" class="size-12">
+<p class="text-pink-300 font-bold">Data analysis</p>
+              </div>
+            </div>
+            <div class="rounded-full border-2 border-pink-500 px-2">
+<div class="flex items-center"><img src="icon7.png" class="size-12">
+<p class="text-pink-300 font-bold">Machine learning</p>
+              </div>
+            </div>
           </div>
 
-          <div class="rounded-lg border-2 border-pink-500 px-2 py-2 mt-4 bg-pink-700/50">
-              <p class="text-pink-300  font-bold ">Problem Solving</p>
-              <p>Breaking challenges into smaller, manageable steps.</p>
+          <p class="text-pink-500 text-lg font-bold p-2 mt-4">Currently learning</p>
+          <div class="flex flex-wrap gap-3">
+            <div class="rounded-full border-2 border-pink-500 bg-pink-500/50">
+              <p class="text-pink-300 font-bold px-4">HTML</p>
             </div>
-            <div class="rounded-lg border-2 border-pink-500 px-2 py-2 mt-4 bg-pink-700/50">
-              <p class="text-pink-300 font-bold ">Quick Learning</p>
-              <p>Learning new concepts through practice and exploration.</p>
+            <div class="rounded-full border-2 border-pink-500 bg-pink-500/50">
+              <p class="text-pink-300 font-bold px-4">JavaScript</p>
             </div>
+            <div class="rounded-full border-2 border-pink-500 bg-pink-500/50">
+              <p class="text-pink-300 font-bold px-4">Python</p>
+            </div>
+          </div>
+        </div>
 
-            <div class="rounded-lg border-2 border-pink-500 px-2 py-2 mt-4 bg-pink-700/50">
-              <p class="text-pink-300  font-bold ">Goal-Oriented</p>
-              <p>Working consistently toward my learning goals.</p>
-            </div>
-</div>
-    <div class="flex gap-4">
-      <div class="rounded-lg border-2 border-pink-200 p-2 transition-transform duration-100 hover:bg-pink-950 text-pink-300">
-        <div class="flex gap-4 mt-4">
-          <div class="rounded-lg border-2 border-pink-500 px-2 bg-pink-700/50">
-          <p class="text-pink-200  font-bold text-3xl">01</p>
+        <div
+          class="rounded-lg border-2 border-pink-200 p-4 transition-transform duration-100 hover:bg-pink-950 text-pink-300">
+          <div class="rounded-lg border-2 border-pink-500 px-4 py-2 mt-4 bg-pink-700/50">
+            <p class="text-pink-300 font-bold">Creative Thinking</p>
+            <p>Finding fresh ideas and exploring different approaches</p>
+          </div>
+          <div class="rounded-lg border-2 border-pink-500 px-4 py-2 mt-4 bg-pink-700/50">
+            <p class="text-pink-300 font-bold">Problem Solving</p>
+            <p>Breaking challenges into smaller, manageable steps.</p>
+          </div>
+          <div class="rounded-lg border-2 border-pink-500 px-4 py-2 mt-4 bg-pink-700/50">
+            <p class="text-pink-300 font-bold">Quick Learning</p>
+            <p>Learning new concepts through practice and exploration.</p>
+          </div>
+          <div class="rounded-lg border-2 border-pink-500 px-4 py-2 mt-4 bg-pink-700/50">
+            <p class="text-pink-300 font-bold">Goal-Oriented</p>
+            <p>Working consistently toward my learning goals.</p>
+          </div>
+        </div>
+
+        <div
+          class="rounded-lg border-2 border-pink-200 p-4 transition-transform duration-100 hover:bg-pink-950 text-pink-300">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+            <div class="rounded-lg border-2 border-pink-500 px-2 bg-pink-700/50">
+              <p class="text-pink-200 font-bold text-3xl">01</p>
               <p class="text-pink-300 font-bold mt-2">Year of Study</p>
               <p>First-year student</p>
             </div>
-          <div class="rounded-lg border-2 border-pink-500 px-2 bg-pink-700/50">
-            <p class="text-pink-200  font-bold text-3xl">∞</p>
-              <p class="text-pink-300  font-bold">Ideas to Explore</p>
+            <div class="rounded-lg border-2 border-pink-500 px-2 bg-pink-700/50">
+              <p class="text-pink-200 font-bold text-3xl">∞</p>
+              <p class="text-pink-300 font-bold">Ideas to Explore</p>
               <p>Always learning</p>
             </div>
-        </div>
+          </div>
 
-        <div class="rounded-lg border-2 border-pink-500 px-2  mt-4 bg-pink-700/50">
-          <p class="text-pink-300  font-bold mt-2">“Dream. Learn. Create. Repeat.”</p>
-          <p>Building my future, one project at a time.</p>
-        </div>
+          <div class="rounded-lg border-2 border-pink-500 px-2 mt-4 bg-pink-700/50">
+            <p class="text-pink-300 font-bold mt-2">“Dream. Learn. Create. Repeat.”</p>
+            <p>Building my future, one project at a time.</p>
+          </div>
 
-        <div class="rounded-lg border-2 border-pink-500 px-2  mt-4 bg-pink-700/50">
-          <p class="text-pink-300  font-bold mt-2">Turning Curiosity Into Innovation</p>
-          <p>My vision is to combine Artificial Intelligence,<br> Data Science, and Web Development to<br> create useful and meaningful<br>
-          digital solutions. I aim to keep improving my skills,<br> gain practical experience, and turn<br> my ideas into real projects.</p>
+          <div class="rounded-lg border-2 border-pink-500 px-2 mt-4 bg-pink-700/50">
+            <p class="text-pink-300 font-bold mt-2">Turning Curiosity Into Innovation</p>
+            <p>
+              My vision is to combine Artificial Intelligence, Data Science, and Web Development to create useful and
+              meaningful digital solutions.
+              I aim to keep improving my skills, gain practical experience, and turn my ideas into real projects.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
+
   <hr class="mt-4">
-  <!-- footer -->
-    <div class="flex">
-  <div>
-  <p class="text-pink-300 font-bold text-3xl mt-8">Let's Connect!</p>
-  <p class="mt-4 text-xl text-pink-100">
-    I'm always excited to connect with<br>
-    people who love technology, design,<br>
-    and learning.
-  </p>
 
-  <p class="text-xl text-pink-100">
-    Have a project idea, collaboration <br>
-    opportunity, or just want to say hello?<br>
-    Feel free to reach out
-  </p>
-</div>
+  <!-- Footer -->
+  <div class="flex flex-col md:flex-row justify-between gap-6 p-4 md:p-8">
     <div>
-    <p class="text-xl ml-28 mt-16 text-pink-200">
-      Email: your-email@example.com
-    </p>
+      <p class="text-pink-300 font-bold text-3xl mt-4">Let's Connect!</p>
+      <p class="mt-4 text-xl text-pink-100">
+        I'm always excited to connect with people who love technology, design, and learning.
+      </p>
+      <p class="text-xl text-pink-100 mt-4">
+        Have a project idea, collaboration opportunity, or just want to say hello? Feel free to reach out.
+      </p>
+    </div>
 
-    <p class="text-xl ml-28 mt-4 text-pink-200">
-      LinkedIn: Your LinkedIn Profile
-    </p>
-
-    <p class="text-xl ml-28 mt-4 text-pink-200">
-      GitHub: Your GitHub Profile
-    </p>
-  </div>
+    <div class="text-pink-200">
+      <p class="text-lg md:text-xl md:mt-16">Email: your-email@example.com</p>
+      <p class="text-lg md:text-xl mt-4">LinkedIn: Your LinkedIn Profile</p>
+      <p class="text-lg md:text-xl mt-4">GitHub: Your GitHub Profile</p>
+    </div>
   </div>
 
   <div class="bg-pink-950 text-pink-200 p-4">
     <hr class="border-pink-400">
-
-    <p class="text-xl">
-      Designed & Built by Atifa<br>
+    <p class="text-lg md:text-xl mt-4">
+      Designed &amp; Built by Atifa<br>
       Learning today. Building tomorrow. ✦
     </p>
   </div>
-  </div>
-
-</div>
-
-
-
-
-
 
 </body>
 
